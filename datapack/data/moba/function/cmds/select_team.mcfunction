@@ -1,0 +1,1 @@
+tellraw @s [{"text":"[MOBA] ","color":"gold","bold":true},{"text":"Use ","color":"gray"},{"text":"/trigger moba_join set 1","color":"red"},{"text":" for red or ","color":"gray"},{"text":"/trigger moba_join set 2","color":"blue"},{"text":" for blue.","color":"gray"}]

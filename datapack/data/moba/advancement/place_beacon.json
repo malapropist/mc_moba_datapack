@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "placed_beacon": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:beacon"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "moba:nexus/on_place_and_revoke"
+  }
+}

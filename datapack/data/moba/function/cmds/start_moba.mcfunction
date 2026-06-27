@@ -1,0 +1,1 @@
+function moba:game/start
